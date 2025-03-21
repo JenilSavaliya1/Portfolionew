@@ -6,7 +6,7 @@ function Projects() {
   const [projects, setProjects] = useState([])
 
   useEffect(() => {
-    fetch('http://localhost:3001/projects')
+    fetch('https://portfolionew-test.onrender.com/projects')
       .then(response => response.json())
       .then(data => {
         setProjects(data)
