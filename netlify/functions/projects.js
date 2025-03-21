@@ -2,9 +2,10 @@ const fs = require('fs').promises;
 const path = require('path');
 
 exports.handler = async function(event, context) {
-    const filePath = path.join(__dirname, '..', '..', 'projects.json');
+    const filePath = path.join(__dirname, '..', '..', '/projects.json');
     console.log(filePath);
     try {
+        await fs.access(filePath);
         const data = await fs.readFile(filePath, 'utf8'); 
         console.log(data);
         return {
