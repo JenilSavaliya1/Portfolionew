@@ -1,0 +1,30 @@
+.project-box {
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid #c06c61;
+  border-radius: 5px;
+  height: 505px;
+  background-color: #0e4149;
+}
+.project {
+  padding-top: 80px;
+}
+.container-box {
+  display: flex;
+  min-height: 100vh;
+}
+.project-box h2 {
+  color: #07080a;
+}
+.project-box p {
+  text-align:justify;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  padding-top: 80px;
+}
+.container p{
+  padding-top: 30px;
+}
