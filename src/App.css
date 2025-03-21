@@ -5,6 +5,7 @@ html, body {
   color: rgb(221, 209, 209);
 }
 .weather-info {
+  background-color: #2a9cad;
   color: white;
   padding: 10px;
   margin-top: 10px; /* Adds space above the weather info */
@@ -13,7 +14,8 @@ html, body {
   color: #c06c61;
 }
 .weather-info p {
-  color: #771c24;
-  padding-top: 10px;
+  color: #d9d7e4;
+  padding-bottom: 30px;
+  
 }
 

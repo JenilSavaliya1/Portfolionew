@@ -22,12 +22,13 @@ function About() {
                 I have also completed my first coop term as a junior Node.js developer where i learned and worked with experienced people of this industry and also had a chance to have Hands-on experience in working with Node.js and do a project on that.
                 Even when my passion lies somewhere else i believe in grabbing all the opportunities coming my way since that will just help me improve and develop new skills in this competitive world.
             </p>
-            <input className='my-5 p-2 align' type="text" value={search} onChange={handleSearch} placeholder="Search skills using keywords..." />
+            <input className='my-5 pt-5 p-2 align' type="text" value={search} onChange={handleSearch} placeholder="Search skills using keywords..." />
             <ul>
                 {filter ? filter.map(skill => (
-                    <li style={{ fontSize: '23px', margin: '10px auto', display: 'block' }} key={skill}>{skill}</li>
+                    <li style={{ fontSize: '18px', margin: '10px auto', display: 'block' }} key={skill}>{skill}</li>
                 )) : null}
             </ul>
+        
         </div>
     );
 }
