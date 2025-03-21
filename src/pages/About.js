@@ -25,7 +25,7 @@ function About() {
             <input className='my-2 pb -3 p-2 align' type="text" value={search} onChange={handleSearch} placeholder="Search skills using keywords..." />
             <ul>
                 {filter ? filter.map(skill => (
-                    <li style={{ fontSize: '18px', margin: '10px auto', display: 'block' }} key={skill}>{skill}</li>
+                    <li style={{ fontSize: '15px', margin: '10px auto', display: 'block' }} key={skill}>{skill}</li>
                 )) : null}
             </ul>
         
