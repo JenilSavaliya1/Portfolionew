@@ -5,14 +5,22 @@ html, body {
   color: rgb(221, 209, 209);
 }
 .weather-info {
-  background-color: #464443;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  width: 300px;
   color: white;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  margin-top: 30px;
 }
 .weather-info h2 {
-  color: #c06c61;
+  color: #1cce57;
+  padding-top: 20px;
+  margin: 0;
 }
 .weather-info p {
-  color: #d9d7e4;
+  color: #02ffea;
+  margin: 0;
 }
 
 
