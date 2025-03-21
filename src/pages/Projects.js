@@ -6,7 +6,7 @@ function Projects() {
   const [projects, setProjects] = useState([])
 
   useEffect(() => {
-    fetch('/.netlify/functions/projects')
+    fetch('http://localhost:3001/projects')
       .then(response => response.json())
       .then(data => {
         setProjects(data)
