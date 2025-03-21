@@ -27,7 +27,7 @@ function Home() {
         personal and academic projects completed by me in this journey of 4 years at Dalhousie University.
       </p>
       {weather ?  (
-        <div>
+        <div className='weather-info'>
           <h2>Weather in {weather.city}</h2>
           <p>Temperature: {weather.temperature}°C</p>
           <p>Humidity: {weather.humidity}%</p>
