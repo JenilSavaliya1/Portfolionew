@@ -1,4 +1,3 @@
-// netlify/functions/projects.js
 const fs = require('fs').promises; 
 
 exports.handler = async function(event, context) {
