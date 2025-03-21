@@ -5,15 +5,15 @@ html, body {
   color: rgb(221, 209, 209);
 }
 .weather-info {
-  background-color: #000000;
   color: white;
-  padding: 20px;
-  margin-top: 20px; /* Adds space above the weather info */
+  padding: 10px;
+  margin-top: 10px; /* Adds space above the weather info */
 }
 .weather-info h2 {
   color: #c06c61;
 }
 .weather-info p {
-  margin-top: 10px;
+  color: #771c24;
+  padding-top: 10px;
 }
 
